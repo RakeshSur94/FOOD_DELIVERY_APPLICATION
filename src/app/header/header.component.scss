@@ -1,0 +1,29 @@
+.mat-toolbar{
+    background-color: #FFFFFF !important;
+}
+.spacer{
+    flex: 1 1 auto;  
+}
+.logo{
+    mat-icon{
+        color: #FC8019;
+    }
+}
+.logoname{
+    color: #FC8019;
+    font-weight: bolder;
+    font-size: large;
+}
+.nav-links{
+    gap: 4rem;
+    display: flex;
+}
+
+.nav-links a{
+    display: flex;
+    text-decoration: none;
+    color: #3D4152;
+}
+.nav-links a:hover{
+    color: #FC8019;
+}
