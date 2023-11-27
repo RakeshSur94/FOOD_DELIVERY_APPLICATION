@@ -1,3 +1,37 @@
+@import '../../styles/variables.scss';
+.mat-toolbar {
+  background: $secondary-color !important;
+}
+
+.spacer{
+  flex: 1 1 auto;
+}
+
+.logo{
+  mat-icon{
+    color: $primary-color;
+  }
+}
+
+.logoname{
+  color: $primary-color;
+}
+
+.nav-links{
+  gap: 4rem;
+  display: flex;
+  :hover{
+    color: $primary-color;
+  }
+  a{
+    display: flex;
+    text-decoration: none;
+    color: $tertiary-color;
+    &.active-link{
+      color: $primary-color;
+    }
+  }
+}
 .mat-toolbar{
     background-color: #FFFFFF !important;
 }
@@ -17,13 +51,12 @@
 .nav-links{
     gap: 4rem;
     display: flex;
-}
-
-.nav-links a{
-    display: flex;
-    text-decoration: none;
-    color: #3D4152;
-}
-.nav-links a:hover{
-    color: #FC8019;
+    a{
+        display: flex;
+        text-decoration: none;
+        color: #3D4152;
+    }
+    a:hover{
+        color: #FC8019;
+    }
 }
